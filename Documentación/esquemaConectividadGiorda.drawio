@@ -1,0 +1,620 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" compressed="false" pages="3">
+  <diagram id="Topología-general" name="Topología general">
+    <mxGraphModel dx="1788" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="router-RAB" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;strokeWidth=3;" value="RAB&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LA · LB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RC" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RC&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LC&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="520" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RD" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RD&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LD&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="860" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RE" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RE&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1200" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RF" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RF&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LF&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1540" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RG" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RG&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LG&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1540" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RH" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RH&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LH&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1200" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RI" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RI&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="860" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RJ" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RJ&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LJ&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="520" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RK" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RK&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LK&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="180" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RL" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RL&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LL&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="180" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RM" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RM&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="520" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RN" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RN&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LN&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="860" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RO" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RO&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1200" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RP" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RP&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1540" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RQ" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RQ&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LQ&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1540" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RR" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RR&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LR&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="1200" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RS" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RS&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="860" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RT" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RT&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="520" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="router-RUV" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RUV&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;LU · LV&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="180" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="internet" parent="1" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="INTERNET" vertex="1">
+          <mxGeometry height="60" width="110" x="25" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="internet" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#d79b00;strokeWidth=3;fontStyle=1;" target="router-RAB" value="Salida a Internet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-0" edge="1" parent="1" source="router-RAB" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RC" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1" edge="1" parent="1" source="router-RC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RD" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-2" edge="1" parent="1" source="router-RD" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-3" edge="1" parent="1" source="router-RE" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RF" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-4" edge="1" parent="1" source="router-RF" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RG" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-5" edge="1" parent="1" source="router-RG" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RH" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-6" edge="1" parent="1" source="router-RH" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RI" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-7" edge="1" parent="1" source="router-RI" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RJ" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-8" edge="1" parent="1" source="router-RJ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RK" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-9" edge="1" parent="1" source="router-RK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-10" edge="1" parent="1" source="router-RL" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RM" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-11" edge="1" parent="1" source="router-RM" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RN" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-12" edge="1" parent="1" source="router-RN" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-13" edge="1" parent="1" source="router-RO" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-14" edge="1" parent="1" source="router-RP" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RQ" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-15" edge="1" parent="1" source="router-RQ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-16" edge="1" parent="1" source="router-RR" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RS" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-17" edge="1" parent="1" source="router-RS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-18" edge="1" parent="1" source="router-RT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#1f1f1f;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RUV" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="backup-outer" edge="1" parent="1" source="router-RUV" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RAB" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="915" />
+              <mxPoint x="80" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="backup-0" edge="1" parent="1" source="router-RT" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RN" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-1" edge="1" parent="1" source="router-RK" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RAB" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-3" edge="1" parent="1" source="router-RP" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RG" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-5" edge="1" parent="1" source="router-RF" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RH" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-6" edge="1" parent="1" source="router-RJ" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-7" edge="1" parent="1" source="router-RI" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RM" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-9" edge="1" parent="1" source="router-RD" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" target="router-RO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yVTPCsaq1QOIYHlWHSd3-7" edge="1" parent="1" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="870" as="sourcePoint" />
+            <mxPoint x="225" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVTPCsaq1QOIYHlWHSd3-8" edge="1" parent="1" source="router-RR" style="curved=1;html=1;endArrow=none;startArrow=none;strokeColor=#00a651;strokeWidth=3;fontColor=#087830;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="router-RP" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="898" as="sourcePoint" />
+            <mxPoint x="1556" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LAN-y-hosts-A-K" name="LAN y hosts A-K">
+    <mxGraphModel dx="2165" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="group-LA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="35" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LA" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;strokeWidth=3;" value="RAB" vertex="1">
+          <mxGeometry height="75" width="75" x="60" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LA&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="180" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LA" edge="1" parent="1" source="lanrouter-LA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HA1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;" value="HA1&lt;br&gt;DNS · IP fija DHCP" vertex="1">
+          <mxGeometry height="58" width="70" x="360" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HA1" edge="1" parent="1" source="lan-LA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HA1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HA2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;" value="HA2&lt;br&gt;HTTP · IP fija DHCP" vertex="1">
+          <mxGeometry height="58" width="70" x="438" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HA2" edge="1" parent="1" source="lan-LA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HA2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GP_sj_l4R5QSSRHn75jL-1" connectable="0" parent="lan-host-HA2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.2794" y="4" as="geometry">
+            <mxPoint x="-4" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="host-HA3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HA3&lt;br&gt;IP dinámica DHCP" vertex="1">
+          <mxGeometry height="58" width="70" x="516" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HA3" edge="1" parent="1" source="lan-LA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HA3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HA4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HA4&lt;br&gt;IP dinámica DHCP" vertex="1">
+          <mxGeometry height="58" width="70" x="360" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HA4" edge="1" parent="1" source="lan-LA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HA4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HA5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HA5&lt;br&gt;IP dinámica DHCP" vertex="1">
+          <mxGeometry height="58" width="70" x="438" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HA5" edge="1" parent="1" source="lan-LA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HA5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="650" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LB" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;strokeWidth=3;" value="RAB" vertex="1">
+          <mxGeometry height="75" width="75" x="675" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LB&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="795" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LB" edge="1" parent="1" source="lanrouter-LB" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LB" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HB1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HB1" vertex="1">
+          <mxGeometry height="58" width="150" x="1000" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HB1" edge="1" parent="1" source="lan-LB" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HB1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="1265" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LC" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RC" vertex="1">
+          <mxGeometry height="75" width="75" x="1290" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LC&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="1410" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LC" edge="1" parent="1" source="lanrouter-LC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LC" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HC1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HC1" vertex="1">
+          <mxGeometry height="58" width="150" x="1615" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HC1" edge="1" parent="1" source="lan-LC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HC1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="35" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LD" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RD" vertex="1">
+          <mxGeometry height="75" width="75" x="60" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LD&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="180" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LD" edge="1" parent="1" source="lanrouter-LD" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LD" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HD1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HD1" vertex="1">
+          <mxGeometry height="58" width="150" x="385" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HD1" edge="1" parent="1" source="lan-LD" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HD1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LE" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="650" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LE" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RE" vertex="1">
+          <mxGeometry height="75" width="75" x="675" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LE" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LE&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="795" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LE" edge="1" parent="1" source="lanrouter-LE" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HE1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HE1" vertex="1">
+          <mxGeometry height="58" width="150" x="1000" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HE1" edge="1" parent="1" source="lan-LE" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HE1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LF" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="1265" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LF" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RF" vertex="1">
+          <mxGeometry height="75" width="75" x="1290" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LF" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LF&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="1410" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LF" edge="1" parent="1" source="lanrouter-LF" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LF" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HF1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HF1" vertex="1">
+          <mxGeometry height="58" width="150" x="1615" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HF1" edge="1" parent="1" source="lan-LF" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HF1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LG" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="35" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LG" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RG" vertex="1">
+          <mxGeometry height="75" width="75" x="60" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LG" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LG&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="180" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LG" edge="1" parent="1" source="lanrouter-LG" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LG" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HG1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HG1" vertex="1">
+          <mxGeometry height="58" width="150" x="385" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HG1" edge="1" parent="1" source="lan-LG" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HG1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LH" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="650" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LH" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RH" vertex="1">
+          <mxGeometry height="75" width="75" x="675" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LH" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LH&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="795" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LH" edge="1" parent="1" source="lanrouter-LH" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LH" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HH1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HH1" vertex="1">
+          <mxGeometry height="58" width="150" x="1000" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HH1" edge="1" parent="1" source="lan-LH" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HH1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LI" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="1265" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LI" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RI" vertex="1">
+          <mxGeometry height="75" width="75" x="1290" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LI" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LI&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="1410" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LI" edge="1" parent="1" source="lanrouter-LI" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LI" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HI1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HI1" vertex="1">
+          <mxGeometry height="58" width="150" x="1615" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HI1" edge="1" parent="1" source="lan-LI" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HI1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LJ" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="35" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LJ" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RJ" vertex="1">
+          <mxGeometry height="75" width="75" x="60" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LJ" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LJ&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="180" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LJ" edge="1" parent="1" source="lanrouter-LJ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LJ" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HJ1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HJ1" vertex="1">
+          <mxGeometry height="58" width="150" x="385" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HJ1" edge="1" parent="1" source="lan-LJ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HJ1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LK" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="225" width="570" x="650" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LK" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="RK" vertex="1">
+          <mxGeometry height="75" width="75" x="675" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LK" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="LK&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="160" x="795" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LK" edge="1" parent="1" source="lanrouter-LK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="lan-LK" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HK1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="HK1" vertex="1">
+          <mxGeometry height="58" width="150" x="1000" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HK1" edge="1" parent="1" source="lan-LK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" target="host-HK1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LAN-y-hosts-L-V" name="LAN y hosts L-V">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-title" value="&lt;b&gt;LAN y hosts L-V&lt;/b&gt;&lt;br&gt;Las direcciones IP y gateways se completarán después de aprobar el esquema." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1500" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LL" value="LL · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="35" y="95" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LL" value="RL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LL" value="LL&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="173" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LL" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LL" target="lan-LL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HL1" value="HL1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="385" y="175" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HL1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LL" target="host-HL1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LM" value="LM · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="650" y="95" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LM" value="RM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="675" y="170" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LM" value="LM&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="795" y="173" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LM" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LM" target="lan-LM">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HM1" value="HM1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="175" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HM1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LM" target="host-HM1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LN" value="LN · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="95" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LN" value="RN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="170" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LN" value="LN&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="173" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LN" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LN" target="lan-LN">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HN1" value="HN1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="175" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HN1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LN" target="host-HN1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LO" value="LO · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="35" y="360" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LO" value="RO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LO" value="LO&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="438" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LO" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LO" target="lan-LO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HO1" value="HO1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="385" y="440" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HO1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LO" target="host-HO1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LP" value="LP · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LP" value="RP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="675" y="435" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LP" value="LP&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="795" y="438" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LP" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LP" target="lan-LP">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HP1" value="HP1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HP1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LP" target="host-HP1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LQ" value="LQ · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="360" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LQ" value="RQ" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="435" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LQ" value="LQ&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="438" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LQ" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LQ" target="lan-LQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HQ1" value="HQ1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="440" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HQ1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LQ" target="host-HQ1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LR" value="LR · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="35" y="625" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LR" value="RR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LR" value="LR&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="703" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LR" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LR" target="lan-LR">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HR1" value="HR1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="385" y="705" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HR1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LR" target="host-HR1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LS" value="LS · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="650" y="625" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LS" value="RS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="675" y="700" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LS" value="LS&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="795" y="703" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LS" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LS" target="lan-LS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HS1" value="HS1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="705" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HS1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LS" target="host-HS1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LT" value="LT · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="625" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LT" value="RT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="700" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LT" value="LT&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="703" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LT" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LT" target="lan-LT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HT1" value="HT1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="705" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HT1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LT" target="host-HT1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LU" value="LU · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="35" y="890" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LU" value="RUV" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="965" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LU" value="LU&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="968" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LU" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LU" target="lan-LU">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HU1" value="HU1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="385" y="970" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HU1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LU" target="host-HU1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="group-LV" value="LV · Tamaño a definir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="650" y="890" width="570" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="lanrouter-LV" value="RUV" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="675" y="965" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-LV" value="LV&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;GW = IP máxima utilizable&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="795" y="968" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="router-lan-LV" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lanrouter-LV" target="lan-LV">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host-HV1" value="HV1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="970" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-host-HV1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#666666;strokeWidth=1.5;" edge="1" parent="1" source="lan-LV" target="host-HV1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
