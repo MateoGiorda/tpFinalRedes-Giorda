@@ -3,3 +3,6 @@ ip a add 192.168.50.41/30 dev eth1
 ip a add 192.168.50.34/30 dev eth2
 
 echo 1 > /proc/sys/net/ipv4/ip_forward
+
+ulimit -n 1024
+/etc/init.d/quagga start
