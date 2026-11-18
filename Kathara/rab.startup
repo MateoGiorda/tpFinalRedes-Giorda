@@ -5,3 +5,5 @@ ip a add 192.168.50.5/30 dev eth3
 ip a add 192.168.50.9/30 dev eth4
 
 echo 1 > /proc/sys/net/ipv4/ip_forward
+
+iptables -A POSTROUTING -t nat -o eth5 -j MASQUERADE
