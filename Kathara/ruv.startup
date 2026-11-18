@@ -1,0 +1,6 @@
+ip a add 192.168.14.62/26 dev eth0
+ip a add 192.168.14.126/26 dev eth1
+ip a add 192.168.50.70/30 dev eth2
+ip a add 192.168.50.10/30 dev eth3
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
