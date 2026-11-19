@@ -17,3 +17,8 @@ dhcpd -4 -cf /etc/dhcp/dhcpd.conf eth0
 
 echo "search bytza.izo" > /etc/resolv.conf
 echo "nameserver 192.168.10.1" >> /etc/resolv.conf
+
+iptables -A PREROUTING -t nat -i eth5 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.2:80
+
+iptables -A FORWARD -i eth5 -o eth0 -p tcp -d 192.168.10.2 --dport 80 -j ACCEPT
+iptables -A FORWARD -i eth0 -o eth5 -p tcp -s 192.168.10.2 --sport 80 -m state --state ESTABLISHED,RELATED -j ACCEPT

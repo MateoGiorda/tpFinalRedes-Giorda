@@ -4,3 +4,5 @@ ip link set dev eth0 up
 
 sleep 2
 dhclient -4 -v eth0
+
+/etc/init.d/apache2 start
