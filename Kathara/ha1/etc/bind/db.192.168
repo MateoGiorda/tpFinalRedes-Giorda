@@ -1,0 +1,134 @@
+$TTL 86400
+
+@   IN  SOA ha1.bytza.izo. admin.bytza.izo. (
+        2026111901
+        3600
+        1800
+        604800
+        86400
+)
+
+@   IN  NS  ha1.bytza.izo.
+
+; Hosts
+1.10    IN  PTR ha1.bytza.izo.
+2.10    IN  PTR ha2.bytza.izo.
+3.10    IN  PTR ha3.bytza.izo.
+4.10    IN  PTR ha4.bytza.izo.
+5.10    IN  PTR ha5.bytza.izo.
+129.10  IN  PTR hf1.bytza.izo.
+137.10  IN  PTR hg1.bytza.izo.
+
+1.11    IN  PTR hi1.bytza.izo.
+65.11   IN  PTR hj1.bytza.izo.
+129.11  IN  PTR hk1.bytza.izo.
+193.11  IN  PTR hl1.bytza.izo.
+
+1.12    IN  PTR hm1.bytza.izo.
+65.12   IN  PTR hn1.bytza.izo.
+129.12  IN  PTR ho1.bytza.izo.
+193.12  IN  PTR hp1.bytza.izo.
+
+1.13    IN  PTR hq1.bytza.izo.
+65.13   IN  PTR hr1.bytza.izo.
+129.13  IN  PTR hs1.bytza.izo.
+193.13  IN  PTR ht1.bytza.izo.
+
+1.14    IN  PTR hu1.bytza.izo.
+65.14   IN  PTR hv1.bytza.izo.
+
+; Interfaces LAN de los routers
+126.10  IN  PTR rab0.bytza.izo.
+134.10  IN  PTR rf0.bytza.izo.
+138.10  IN  PTR rg0.bytza.izo.
+
+62.11   IN  PTR ri0.bytza.izo.
+126.11  IN  PTR rj0.bytza.izo.
+190.11  IN  PTR rk0.bytza.izo.
+254.11  IN  PTR rl0.bytza.izo.
+
+62.12   IN  PTR rm0.bytza.izo.
+126.12  IN  PTR rn0.bytza.izo.
+190.12  IN  PTR ro0.bytza.izo.
+254.12  IN  PTR rp0.bytza.izo.
+
+62.13   IN  PTR rq0.bytza.izo.
+126.13  IN  PTR rr0.bytza.izo.
+190.13  IN  PTR rs0.bytza.izo.
+254.13  IN  PTR rt0.bytza.izo.
+
+62.14   IN  PTR ruv0.bytza.izo.
+126.14  IN  PTR ruv1.bytza.izo.
+
+; Interfaces de enlaces entre routers
+1.50    IN  PTR rab2.bytza.izo.
+5.50    IN  PTR rab3.bytza.izo.
+9.50    IN  PTR rab4.bytza.izo.
+
+2.50    IN  PTR rc1.bytza.izo.
+13.50   IN  PTR rc2.bytza.izo.
+
+14.50   IN  PTR rd1.bytza.izo.
+17.50   IN  PTR rd2.bytza.izo.
+21.50   IN  PTR rd3.bytza.izo.
+
+18.50   IN  PTR re1.bytza.izo.
+25.50   IN  PTR re2.bytza.izo.
+
+26.50   IN  PTR rf1.bytza.izo.
+29.50   IN  PTR rf2.bytza.izo.
+33.50   IN  PTR rf3.bytza.izo.
+
+30.50   IN  PTR rg1.bytza.izo.
+37.50   IN  PTR rg2.bytza.izo.
+
+41.50   IN  PTR rh1.bytza.izo.
+34.50   IN  PTR rh2.bytza.izo.
+
+42.50   IN  PTR ri1.bytza.izo.
+45.50   IN  PTR ri2.bytza.izo.
+49.50   IN  PTR ri3.bytza.izo.
+
+46.50   IN  PTR rj1.bytza.izo.
+53.50   IN  PTR rj2.bytza.izo.
+57.50   IN  PTR rj3.bytza.izo.
+
+54.50   IN  PTR rk1.bytza.izo.
+61.50   IN  PTR rk2.bytza.izo.
+6.50    IN  PTR rk3.bytza.izo.
+
+62.50   IN  PTR rl1.bytza.izo.
+65.50   IN  PTR rl2.bytza.izo.
+58.50   IN  PTR rl3.bytza.izo.
+69.50   IN  PTR rl4.bytza.izo.
+
+66.50   IN  PTR rm1.bytza.izo.
+50.50   IN  PTR rm2.bytza.izo.
+
+73.50   IN  PTR rn1.bytza.izo.
+77.50   IN  PTR rn2.bytza.izo.
+
+74.50   IN  PTR ro1.bytza.izo.
+81.50   IN  PTR ro2.bytza.izo.
+22.50   IN  PTR ro3.bytza.izo.
+
+82.50   IN  PTR rp1.bytza.izo.
+85.50   IN  PTR rp2.bytza.izo.
+38.50   IN  PTR rp3.bytza.izo.
+89.50   IN  PTR rp4.bytza.izo.
+
+86.50   IN  PTR rq1.bytza.izo.
+93.50   IN  PTR rq2.bytza.izo.
+
+94.50   IN  PTR rr1.bytza.izo.
+97.50   IN  PTR rr2.bytza.izo.
+90.50   IN  PTR rr3.bytza.izo.
+
+98.50   IN  PTR rs1.bytza.izo.
+101.50  IN  PTR rs2.bytza.izo.
+
+102.50  IN  PTR rt1.bytza.izo.
+78.50   IN  PTR rt2.bytza.izo.
+
+70.50   IN  PTR ruv2.bytza.izo.
+10.50   IN  PTR ruv3.bytza.izo.

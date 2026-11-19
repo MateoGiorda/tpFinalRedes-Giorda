@@ -4,3 +4,7 @@ ip link set dev eth0 up
 
 sleep 2
 dhclient -4 -v eth0
+
+mkdir -p /run/named
+chown bind:bind /run/named /var/cache/bind
+/usr/sbin/named -u bind -c /etc/bind/named.conf

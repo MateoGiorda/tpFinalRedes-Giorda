@@ -1,0 +1,154 @@
+$TTL 86400
+
+@   IN  SOA ha1.bytza.izo. admin.bytza.izo. (
+        2026111901
+        3600
+        1800
+        604800
+        86400
+)
+
+@   IN  NS  ha1.bytza.izo.
+
+; Hosts de las LAN
+ha1     IN  A   192.168.10.1
+ha2     IN  A   192.168.10.2
+ha3     IN  A   192.168.10.3
+ha4     IN  A   192.168.10.4
+ha5     IN  A   192.168.10.5
+hb1     IN  A   10.0.0.1
+hc1     IN  A   172.16.8.1
+hd1     IN  A   172.16.0.1
+he1     IN  A   10.1.0.1
+hf1     IN  A   192.168.10.129
+hg1     IN  A   192.168.10.137
+hh1     IN  A   10.1.64.1
+hi1     IN  A   192.168.11.1
+hj1     IN  A   192.168.11.65
+hk1     IN  A   192.168.11.129
+hl1     IN  A   192.168.11.193
+hm1     IN  A   192.168.12.1
+hn1     IN  A   192.168.12.65
+ho1     IN  A   192.168.12.129
+hp1     IN  A   192.168.12.193
+hq1     IN  A   192.168.13.1
+hr1     IN  A   192.168.13.65
+hs1     IN  A   192.168.13.129
+ht1     IN  A   192.168.13.193
+hu1     IN  A   192.168.14.1
+hv1     IN  A   192.168.14.65
+
+; Interfaces de RAB
+rab0    IN  A   192.168.10.126
+rab1    IN  A   10.0.255.254
+rab2    IN  A   192.168.50.1
+rab3    IN  A   192.168.50.5
+rab4    IN  A   192.168.50.9
+rab5    IN  A   172.17.0.2
+
+; Interfaces de RC
+rc0     IN  A   172.16.8.254
+rc1     IN  A   192.168.50.2
+rc2     IN  A   192.168.50.13
+
+; Interfaces de RD
+rd0     IN  A   172.16.7.254
+rd1     IN  A   192.168.50.14
+rd2     IN  A   192.168.50.17
+rd3     IN  A   192.168.50.21
+
+; Interfaces de RE
+re0     IN  A   10.1.63.254
+re1     IN  A   192.168.50.18
+re2     IN  A   192.168.50.25
+
+; Interfaces de RF
+rf0     IN  A   192.168.10.134
+rf1     IN  A   192.168.50.26
+rf2     IN  A   192.168.50.29
+rf3     IN  A   192.168.50.33
+
+; Interfaces de RG
+rg0     IN  A   192.168.10.138
+rg1     IN  A   192.168.50.30
+rg2     IN  A   192.168.50.37
+
+; Interfaces de RH
+rh0     IN  A   10.1.95.254
+rh1     IN  A   192.168.50.41
+rh2     IN  A   192.168.50.34
+
+; Interfaces de RI
+ri0     IN  A   192.168.11.62
+ri1     IN  A   192.168.50.42
+ri2     IN  A   192.168.50.45
+ri3     IN  A   192.168.50.49
+
+; Interfaces de RJ
+rj0     IN  A   192.168.11.126
+rj1     IN  A   192.168.50.46
+rj2     IN  A   192.168.50.53
+rj3     IN  A   192.168.50.57
+
+; Interfaces de RK
+rk0     IN  A   192.168.11.190
+rk1     IN  A   192.168.50.54
+rk2     IN  A   192.168.50.61
+rk3     IN  A   192.168.50.6
+
+; Interfaces de RL
+rl0     IN  A   192.168.11.254
+rl1     IN  A   192.168.50.62
+rl2     IN  A   192.168.50.65
+rl3     IN  A   192.168.50.58
+rl4     IN  A   192.168.50.69
+
+; Interfaces de RM
+rm0     IN  A   192.168.12.62
+rm1     IN  A   192.168.50.66
+rm2     IN  A   192.168.50.50
+
+; Interfaces de RN
+rn0     IN  A   192.168.12.126
+rn1     IN  A   192.168.50.73
+rn2     IN  A   192.168.50.77
+
+; Interfaces de RO
+ro0     IN  A   192.168.12.190
+ro1     IN  A   192.168.50.74
+ro2     IN  A   192.168.50.81
+ro3     IN  A   192.168.50.22
+
+; Interfaces de RP
+rp0     IN  A   192.168.12.254
+rp1     IN  A   192.168.50.82
+rp2     IN  A   192.168.50.85
+rp3     IN  A   192.168.50.38
+rp4     IN  A   192.168.50.89
+
+; Interfaces de RQ
+rq0     IN  A   192.168.13.62
+rq1     IN  A   192.168.50.86
+rq2     IN  A   192.168.50.93
+
+; Interfaces de RR
+rr0     IN  A   192.168.13.126
+rr1     IN  A   192.168.50.94
+rr2     IN  A   192.168.50.97
+rr3     IN  A   192.168.50.90
+
+; Interfaces de RS
+rs0     IN  A   192.168.13.190
+rs1     IN  A   192.168.50.98
+rs2     IN  A   192.168.50.101
+
+; Interfaces de RT
+rt0     IN  A   192.168.13.254
+rt1     IN  A   192.168.50.102
+rt2     IN  A   192.168.50.78
+
+; Interfaces de RUV
+ruv0    IN  A   192.168.14.62
+ruv1    IN  A   192.168.14.126
+ruv2    IN  A   192.168.50.70
+ruv3    IN  A   192.168.50.10

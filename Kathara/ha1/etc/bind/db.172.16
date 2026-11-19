@@ -1,0 +1,17 @@
+$TTL 86400
+
+@   IN  SOA ha1.bytza.izo. admin.bytza.izo. (
+        2026111901
+        3600
+        1800
+        604800
+        86400
+)
+
+@   IN  NS  ha1.bytza.izo.
+
+1.0     IN  PTR hd1.bytza.izo.
+1.8     IN  PTR hc1.bytza.izo.
+
+254.7   IN  PTR rd0.bytza.izo.
+254.8   IN  PTR rc0.bytza.izo.

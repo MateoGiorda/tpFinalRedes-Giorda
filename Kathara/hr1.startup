@@ -1,2 +1,5 @@
 ip a add 192.168.13.65/26 dev eth0
 ip route add default via 192.168.13.126
+
+echo "search bytza.izo" > /etc/resolv.conf
+echo "nameserver 192.168.10.1" >> /etc/resolv.conf
