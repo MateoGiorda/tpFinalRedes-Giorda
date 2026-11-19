@@ -1,0 +1,6 @@
+ip link set dev eth0 down
+ip link set dev eth0 address 02:00:00:00:0a:02
+ip link set dev eth0 up
+
+sleep 2
+dhclient -4 -v eth0

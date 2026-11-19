@@ -1,0 +1,2 @@
+sleep 2
+dhclient -4 -v eth0
