@@ -1,7 +1,7 @@
 $TTL 86400
 
 @   IN  SOA ha1.bytza.izo. admin.bytza.izo. (
-        2026111901
+	2026112301
         3600
         1800
         604800
@@ -16,7 +16,7 @@ ha2     IN  A   192.168.10.2
 ha3     IN  A   192.168.10.3
 ha4     IN  A   192.168.10.4
 ha5     IN  A   192.168.10.5
-hb1     IN  A   10.0.0.1
+hb1     IN  A   10.2.0.1
 hc1     IN  A   172.16.8.1
 hd1     IN  A   172.16.0.1
 he1     IN  A   10.1.0.1
@@ -40,14 +40,14 @@ hv1     IN  A   192.168.14.65
 
 ; Interfaces de RAB
 rab0    IN  A   192.168.10.126
-rab1    IN  A   10.0.255.254
+rab1    IN  A   10.3.255.254
 rab2    IN  A   192.168.50.1
 rab3    IN  A   192.168.50.5
 rab4    IN  A   192.168.50.9
 rab5    IN  A   172.17.0.2
 
 ; Interfaces de RC
-rc0     IN  A   172.16.8.254
+rc0     IN  A   172.16.9.254
 rc1     IN  A   192.168.50.2
 rc2     IN  A   192.168.50.13
 

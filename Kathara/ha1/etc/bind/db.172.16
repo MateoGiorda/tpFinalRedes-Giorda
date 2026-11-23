@@ -1,7 +1,7 @@
 $TTL 86400
 
 @   IN  SOA ha1.bytza.izo. admin.bytza.izo. (
-        2026111901
+        2026112301
         3600
         1800
         604800
@@ -14,4 +14,4 @@ $TTL 86400
 1.8     IN  PTR hc1.bytza.izo.
 
 254.7   IN  PTR rd0.bytza.izo.
-254.8   IN  PTR rc0.bytza.izo.
+254.9   IN  PTR rc0.bytza.izo.
